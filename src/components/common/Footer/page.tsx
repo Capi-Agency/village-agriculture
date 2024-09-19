@@ -83,7 +83,7 @@ export default function Footer() {
 			{/* begin:: main footer */}
 			<div className="container">
 				<div className="w-full min-h-[300px] flex md:flex-wrap md: gap-10 mb-10">
-					<div className="w-[50%] md:w-full flex flex-col justify-between">
+					<div className="md:w-[50%] w-full flex flex-col justify-between">
 						{/* begin:: logo */}
 						<Image
 							src="/assets/image/footer_logo.png"
@@ -100,7 +100,7 @@ export default function Footer() {
 						</p>
 						{/* end:: quote */}
 					</div>
-					<div className="w-[50%] md:w-full flex flex-col justify-between">
+					<div className="md:w-[50%] w-full flex flex-col justify-between">
 						{/* begin:: links */}
 						<div className="w-full flex justify-between">
 							{linksData.map((linkGroup, index) => {
