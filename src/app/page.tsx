@@ -270,7 +270,7 @@ export default function Home() {
               Our focus is on transforming the agricultural value chain at three
               levels – farmer, market, and cluster. This approach is central to
               achieving food security in Africa. By helping the continent become
-              self-sufficient in food production, we aim to reduce Africa's food
+              self-sufficient in food production, we aim to reduce Africa&apos;s food
               import bill, ultimately bringing down the cost of food for
               everyday customers and consumers like you and me.
             </p>

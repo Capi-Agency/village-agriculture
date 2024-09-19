@@ -81,9 +81,9 @@ export default function Footer() {
 	return (
 		<Fragment>
 			{/* begin:: main footer */}
-			<div className="px-20">
-				<div className="w-full min-h-[300px] flex mb-10">
-					<div className="w-[50%] flex flex-col justify-between">
+			<div className="container">
+				<div className="w-full min-h-[300px] flex md:flex-wrap md: gap-10 mb-10">
+					<div className="w-[50%] md:w-full flex flex-col justify-between">
 						{/* begin:: logo */}
 						<Image
 							src="/assets/image/footer_logo.png"
@@ -100,7 +100,7 @@ export default function Footer() {
 						</p>
 						{/* end:: quote */}
 					</div>
-					<div className="w-[50%] flex flex-col justify-between">
+					<div className="w-[50%] md:w-full flex flex-col justify-between">
 						{/* begin:: links */}
 						<div className="w-full flex justify-between">
 							{linksData.map((linkGroup, index) => {
@@ -168,12 +168,12 @@ export default function Footer() {
 			{/* end:: main footer */}
 
 			{/*begin:: copyright */}
-			<div className="px-20 bg-[#333] py-10 flex justify-between">
+			<div className="container bg-[#333] py-10 flex justify-between">
 				<p className="font-normal text-white text-base inline-block">
 					© Copyright 2024 villageagriculture. All Right Reserved
 				</p>
 				<div className="font-normal text-white text-sm inline-block uppercase">
-					<p className="inline-block pr-32">Terms of use</p>
+					<p className="inline-block pr-32 md:pr-2">Terms of use</p>
 					<p className="inline-block">Privacy policy</p>
 				</div>
 			</div>
