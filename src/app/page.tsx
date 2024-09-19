@@ -46,7 +46,7 @@ export default function Home() {
       <section className="mt-[165px] mb-[182px]">
         <div className="container">
           <div className="flex items-center justify-between">
-            <span className="text-[64px] font-medium -tracking-[2px] text-[#333] w-[33%]">
+            <span className="text-[64px] font-medium -tracking-[2px] text-[#333] w-[33%] leading-[72px]">
               Building a New Company
             </span>
             <span className="text-[#000] font-light text-[24px] leading-[180%] -tracking-[0.72px] w-[34%]">
