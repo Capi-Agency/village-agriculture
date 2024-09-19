@@ -11,7 +11,7 @@ interface NextImgProps {
 	objectFit?: "cover" | "contain" | "none";
 }
 
-let srcDefault = "/assets/image/unavailable.jpg";
+const srcDefault = "/assets/image/unavailable.jpg";
 
 const NextImg = ({ src, alt, className, width, height, objectFit = "contain" }: NextImgProps) => {
 	
