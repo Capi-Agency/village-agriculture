@@ -82,7 +82,7 @@ export default function Footer() {
 		<Fragment>
 			{/* begin:: main footer */}
 			<div className="container">
-				<div className="w-full min-h-[300px] flex md:flex-wrap md: gap-10 mb-10">
+				<div className="w-full min-h-[300px] flex gap-10 mb-10">
 					<div className="md:w-[50%] w-full flex flex-col justify-between">
 						{/* begin:: logo */}
 						<Image
