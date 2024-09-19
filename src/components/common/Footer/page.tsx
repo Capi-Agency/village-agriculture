@@ -94,7 +94,7 @@ export default function Footer() {
 						{/* end:: logo */}
 
 						{/* begin:: quote */}
-						<p className="text-6xl text-[#545454] font-medium">
+						<p className="text-6xl text-[#545454] font-medium leading-[72px]">
 							Reach out with <br />
 							Villageagriculture
 						</p>
